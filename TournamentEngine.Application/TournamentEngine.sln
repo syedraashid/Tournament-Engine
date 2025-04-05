@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentEngine.Application", "TournamentEngine.Application.csproj", "{C65B42DA-2629-4868-BF14-676350A6DD2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TournamentEngine.Application", "TournamentEngine.Application.csproj", "{C65B42DA-2629-4868-BF14-676350A6DD2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentEngine.Domain", "..\TournamentEngine.Domain\TournamentEngine.Domain.csproj", "{E004F174-6B62-42DA-8C88-4FB3DA4275C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TournamentEngine.Domain", "..\TournamentEngine.Domain\TournamentEngine.Domain.csproj", "{E004F174-6B62-42DA-8C88-4FB3DA4275C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentEngine.Infrastructure", "..\TournamentEngine.Infrastructure\TournamentEngine.Infrastructure.csproj", "{798710A1-E0E9-4677-961A-94171C90FBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TournamentEngine.Infrastructure", "..\TournamentEngine.Infrastructure\TournamentEngine.Infrastructure.csproj", "{798710A1-E0E9-4677-961A-94171C90FBA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{656309E4-298C-4B9A-BC96-856FF6281CE8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+		local.env = local.env
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

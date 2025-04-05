@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using TournamentEngine.Infrastructure.Config;
+using TournamentEngine.Infrastructure.Config;   
 
 namespace TournamentEngine.Infrastructure.Messaging
 {
@@ -17,7 +18,7 @@ namespace TournamentEngine.Infrastructure.Messaging
         private IChannel? _channel;
         private readonly string _queueName;
         private readonly ConnectionFactory _factory;
-
+            
         public QueueManager(IOptions<MessagingConfig> messagingConfig, ILogger<QueueManager> logger)
         {
             _messagingConfig = messagingConfig.Value;
@@ -26,9 +27,9 @@ namespace TournamentEngine.Infrastructure.Messaging
 
             _factory = new ConnectionFactory
             {
-                HostName = _messagingConfig.Host,
-                UserName = _messagingConfig.Username,
-                Password = _messagingConfig.Password
+                HostName = "localhost",
+                UserName = "user",
+                Password = "pass"
             };
         }
 
@@ -50,6 +51,39 @@ namespace TournamentEngine.Infrastructure.Messaging
                 _logger.LogError(ex, "Failed to initialize RabbitMQ.");
                 throw;
             }
+        }
+
+        public async Task SendMessageAsync(string message)
+        {
+            var body = Encoding.UTF8.GetBytes(message);
+            await _channel.BasicPublishAsync(exchange: string.Empty, routingKey: "hello", body: body);
+            _logger.LogInformation("Message sent: {Message}", message);
+        }
+
+        public async void ConsumeMessages()
+        {
+            var factory = new ConnectionFactory { HostName = "localhost",
+                UserName = "user",
+                Password = "pass"
+            };
+            using var connection = await factory.CreateConnectionAsync();
+            using var channel = await connection.CreateChannelAsync();
+
+            await channel.QueueDeclareAsync(queue: "hello", durable: false, exclusive: false, autoDelete: false,
+                arguments: null);
+
+            Console.WriteLine(" [*] Waiting for messages.");
+
+            var consumer = new AsyncEventingBasicConsumer(channel);
+            consumer.ReceivedAsync += (model, ea) =>
+            {
+                var body = ea.Body.ToArray();
+                var message = Encoding.UTF8.GetString(body);
+                Console.WriteLine($" [x] Received {message}");
+                return Task.CompletedTask;
+            };
+
+            await channel.BasicConsumeAsync("hello", autoAck: true, consumer: consumer);
         }
 
         /// <summary>
