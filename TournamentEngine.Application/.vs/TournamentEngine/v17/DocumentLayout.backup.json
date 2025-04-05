@@ -1,0 +1,492 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\worker\\tournamentworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:worker\\tournamentworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\dtos\\ruledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:dtos\\ruledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\dtos\\matchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:dtos\\matchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\dtos\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:dtos\\leaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\dtos\\tournamentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:dtos\\tournamentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\handlers\\playerscorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:handlers\\playerscorehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\handlers\\matchresulthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:handlers\\matchresulthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\handlers\\leaderboardupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:handlers\\leaderboardupdatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\handlers\\tournamenteventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:handlers\\tournamenteventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\services\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:services\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\dtos\\playertransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:dtos\\playertransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\services\\itournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:services\\itournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|c:\\syedraahid\\tournamentengine\\tournamentengine.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65B42DA-2629-4868-BF14-676350A6DD2F}|TournamentEngine.Application.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\Entities\\TournamentParticipants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\Entities\\Tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\Entities\\PlayerTransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\Entities\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\Entities\\Leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\Config\\MessagingConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\RuleEngine\\Rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\RuleEngine\\RuleEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\Messaging\\QueueManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\LeaderboardRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\PlayerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\TournamentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Infrastructure\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karthik\\TournamentEngine.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TournamentParticipants.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\TournamentParticipants.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\TournamentParticipants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:55.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\Tournament.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\Tournament.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:54.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PlayerTransaction.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\PlayerTransaction.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\PlayerTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:53.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\Player.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:51.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Leaderboard.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\Leaderboard.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\Entities\\Leaderboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:42:50.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:33:39.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TournamentWorker.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Worker\\TournamentWorker.cs",
+              "RelativeDocumentMoniker": "Worker\\TournamentWorker.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Worker\\TournamentWorker.cs",
+              "RelativeToolTip": "Worker\\TournamentWorker.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:30:47.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TournamentService.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\TournamentService.cs",
+              "RelativeDocumentMoniker": "Services\\TournamentService.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\TournamentService.cs",
+              "RelativeToolTip": "Services\\TournamentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:20:02.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MessagingConfig.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\Config\\MessagingConfig.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\Config\\MessagingConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:59:40.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Rule.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\RuleEngine\\Rule.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\RuleEngine\\Rule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:29:02.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RuleEngine.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\RuleEngine\\RuleEngine.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\RuleEngine\\RuleEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:28:51.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QueueManager.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\Messaging\\QueueManager.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\Messaging\\QueueManager.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:13:43.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LeaderboardRepository.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\LeaderboardRepository.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\LeaderboardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:12:43.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\PlayerRepository.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\PlayerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:12:22.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RuleDto.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\RuleDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\RuleDto.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\RuleDto.cs",
+              "RelativeToolTip": "Dtos\\RuleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:09:54.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchDto.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\MatchDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\MatchDto.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\MatchDto.cs",
+              "RelativeToolTip": "Dtos\\MatchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:09:22.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeaderboardDto.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\LeaderboardDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LeaderboardDto.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\LeaderboardDto.cs",
+              "RelativeToolTip": "Dtos\\LeaderboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:08:20.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TournamentDto.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\TournamentDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\TournamentDto.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\TournamentDto.cs",
+              "RelativeToolTip": "Dtos\\TournamentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:07:54.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TournamentRepository.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\TournamentRepository.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\Repositories\\TournamentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:36:50.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerScoreHandler.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\PlayerScoreHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\PlayerScoreHandler.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\PlayerScoreHandler.cs",
+              "RelativeToolTip": "Handlers\\PlayerScoreHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:07:24.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatchResultHandler.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\MatchResultHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\MatchResultHandler.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\MatchResultHandler.cs",
+              "RelativeToolTip": "Handlers\\MatchResultHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:06:48.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LeaderboardUpdateHandler.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\LeaderboardUpdateHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\LeaderboardUpdateHandler.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\LeaderboardUpdateHandler.cs",
+              "RelativeToolTip": "Handlers\\LeaderboardUpdateHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:06:12.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TournamentEventHandler.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\TournamentEventHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\TournamentEventHandler.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Handlers\\TournamentEventHandler.cs",
+              "RelativeToolTip": "Handlers\\TournamentEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:05:43.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "Services\\PlayerService.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\PlayerService.cs",
+              "RelativeToolTip": "Services\\PlayerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:03:28.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\MatchService.cs",
+              "RelativeDocumentMoniker": "Services\\MatchService.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\MatchService.cs",
+              "RelativeToolTip": "Services\\MatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:03:07.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LeaderboardService.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\LeaderboardService.cs",
+              "RelativeDocumentMoniker": "Services\\LeaderboardService.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\LeaderboardService.cs",
+              "RelativeToolTip": "Services\\LeaderboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:02:14.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\AppDbContext.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:20:48.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:09:36.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Karthik\\TournamentEngine.Domain\\Class1.cs",
+              "ToolTip": "D:\\Karthik\\TournamentEngine.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:01:57.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerTransactionDto.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\PlayerTransactionDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PlayerTransactionDto.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Dtos\\PlayerTransactionDto.cs",
+              "RelativeToolTip": "Dtos\\PlayerTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:21:39.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITournamentService.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\ITournamentService.cs",
+              "RelativeDocumentMoniker": "Services\\ITournamentService.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Services\\ITournamentService.cs",
+              "RelativeToolTip": "Services\\ITournamentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:20:59.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\SyedRaahid\\TournamentEngine\\TournamentEngine.Application\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:12:44.731Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
