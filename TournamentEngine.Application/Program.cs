@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using TournamentEngine.Application.Worker;
+using TournamentEngine.Infrastructure;
 using TournamentEngine.Infrastructure.Config;
 using TournamentEngine.Infrastructure.Messaging;
 
@@ -16,12 +17,11 @@ IHost builder = Host.CreateDefaultBuilder(args)
 {
     services.AddOptions();
     services.Configure<MessagingConfig>(
-        hostContext.Configuration.GetSection(MessagingConfig.SECTION));
+        hostContext.Configuration.GetSection("MessagingConfig"));
 
-
-    // services.AddSingleton<IConfiguration>(provider => hostContext.Configuration.GetSection(BackendDbConfig.CLUSTERS_SECTION + ":entraid_backend_r2c1"));
     services.AddScoped<IQueueManager,QueueManager>();
     services.AddHostedService<TournamentWorker>();
+    services.AddHostedService<MessageConsumer>();
 })
 .ConfigureLogging((hostingContext, logging) =>
 {

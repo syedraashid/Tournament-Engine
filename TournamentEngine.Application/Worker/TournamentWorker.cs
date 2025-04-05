@@ -22,22 +22,16 @@ namespace TournamentEngine.Application.Worker
         }
         public async Task StartAsync(CancellationToken cancellationToken)
         {
-            var factory = new ConnectionFactory { HostName = "localhost",
-                UserName = "user",
-                Password = "pass"
-            };
-            using var connection = await factory.CreateConnectionAsync();
-            using var channel = await connection.CreateChannelAsync();
-
-            await channel.QueueDeclareAsync(queue: "hello", durable: false, exclusive: false, autoDelete: false,
-                arguments: null);
+            var channel = await _queueManager.InitializeAsync();
 
             for (int i = 0; i < 20; i++)
             {
                 string message = $"Hello World!{i}";
                 var body = Encoding.UTF8.GetBytes(message);
-                await channel.BasicPublishAsync(exchange: string.Empty, routingKey: "hello", body: body);
+                await channel.BasicPublishAsync(exchange: string.Empty, routingKey: "spin_queue", body: body);
             }
+
+
         }
 
         public Task StopAsync(CancellationToken cancellationToken)
