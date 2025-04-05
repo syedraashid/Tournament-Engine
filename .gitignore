@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TournamentEngine.Application/TournamentEngine.sln
+obje/Debug/net8.0
+.vs
+/TournamentEngine.Application/bin/Debug/net8.0
+/TournamentEngine.Application/obj/Debug/net8.0
+/TournamentEngine.Application/.vs/TournamentEngine/v17
+/TournamentEngine.Infrastructure/bin/Debug/net.8.0
+/TournamentEngine.Application/TournamentEngine.sln
