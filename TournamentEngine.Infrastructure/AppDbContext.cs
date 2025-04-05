@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TournamentEngine.Infrastructure
 {
-    class AppDbContext
+    public class AppDbContext
     {
     }
 }
